@@ -7,7 +7,7 @@ email = credentials.email
 password = credentials.password
 smtp_server.login(email,password)
 message = MIMEText('Python email automation involves using Python to automate tasks such as sending, receiving, parsing emails, managing lists, scheduling, and monitoring, facilitated by libraries like `smtplib` and `imaplib`, enhancing efficiency and scalability in email-related workflows.')
-To = 'jeevanskoushik@gmail.com'
+To = '' #add to address
 message['From'] = email
 message['To'] = To
 message['Subject'] = 'Automated Email'
